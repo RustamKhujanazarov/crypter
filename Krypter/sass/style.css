@@ -58,14 +58,14 @@ img {
   border: 2px solid #E6E8EC;
 }
 
-.text, .footer__top__line__content__link, .section-bid__content__bottom__card__box-3, .section-bid__content__bottom__card__hover__span-1, .section-two__content__right__card__content__text-2, .section-two__content__right__text, .section-two__content__center__card__content__center__text-2, .section-two__content__left__bottom__right__text-1, .section-one__content__right__box-2__stats__stat__stat-2, .section-one__content__right__box-1__content__right__text-1, .hero__content__text {
+.text, .footer__top__line__content__link, .section-bid__content__bottom__card__box-three, .section-bid__content__bottom__card__hover__span-one, .section-two__content__right__card__content__text-two, .section-two__content__right__text, .section-two__content__center__card__content__center__text-two, .section-two__content__left__bottom__right__text-one, .section-one__content__right__box-two__stats__stat__stat-two, .section-one__content__right__box-one__content__right__text-one, .hero__content__text {
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.2rem;
   color: #777E91;
 }
 
-.title, .section-one__content__right__box-2__stats__stat__stat-1, .section-one__content__right__box-2__text-2, .section-one__content__right__title, .section-one__content__right__title-1, .hero__content__title {
+.title, .section-one__content__right__box-two__stats__stat__stat-one, .section-one__content__right__box-two__text-two, .section-one__content__right__title, .section-one__content__right__title-one, .hero__content__title {
   font-weight: 700;
   font-size: 4rem;
   line-height: 4.8rem;
@@ -73,7 +73,7 @@ img {
   color: #23262F;
 }
 
-.text-green, .section-two__content__left__bottom__right__text-2 {
+.text-green, .section-two__content__left__bottom__right__text-two {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.2rem;
@@ -205,38 +205,38 @@ img {
   flex-direction: column;
   gap: 0;
 }
-.section-one__content__right__title, .section-one__content__right__title-1 {
+.section-one__content__right__title, .section-one__content__right__title-one {
   font-size: 6.4rem;
   line-height: 6.4rem;
   margin-bottom: 2rem;
 }
-.section-one__content__right__title-1 {
+.section-one__content__right__title-one {
   display: none;
 }
-.section-one__content__right__box-1 {
+.section-one__content__right__box-one {
   display: flex;
   gap: 5rem;
 }
-.section-one__content__right__box-1__content {
+.section-one__content__right__box-one__content {
   display: flex;
   gap: 0.8rem;
 }
-.section-one__content__right__box-1__content__img {
+.section-one__content__right__box-one__content__img {
   width: 4rem;
   height: 4rem;
 }
-.section-one__content__right__box-1__content__right {
+.section-one__content__right__box-one__content__right {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.section-one__content__right__box-1__content__right__text-2 {
+.section-one__content__right__box-one__content__right__text-two {
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 2.4rem;
   color: #23262F;
 }
-.section-one__content__right__box-2 {
+.section-one__content__right__box-two {
   border: 2px solid #E6E8EC;
   padding: 3rem 6rem;
   box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
@@ -244,35 +244,35 @@ img {
   margin: 4rem 0 3rem 0;
   text-align: center;
 }
-.section-one__content__right__box-2__text-1, .section-two__content__center__card__content__text, .section-two__content__right__card__content__text-1, .section-one__content__right__box-2__text-4 {
+.section-one__content__right__box-two__text-one, .section-two__content__center__card__content__text, .section-two__content__right__card__content__text-one, .section-one__content__right__box-two__text-four {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 500;
   color: #23262F;
 }
-.section-one__content__right__box-2__text-2 {
+.section-one__content__right__box-two__text-two {
   font-size: 4.8rem;
   line-height: 5.6rem;
 }
-.section-one__content__right__box-2__text-3 {
+.section-one__content__right__box-two__text-three {
   font-weight: 600;
   font-size: 2.4rem;
   line-height: 3.2rem;
   color: #777E91;
 }
-.section-one__content__right__box-2__text-4 {
+.section-one__content__right__box-two__text-four {
   margin-top: 2.4rem;
 }
-.section-one__content__right__box-2__stats {
+.section-one__content__right__box-two__stats {
   display: flex;
   justify-content: space-around;
 }
-.section-one__content__right__box-2__stats__stat__stat-1 {
+.section-one__content__right__box-two__stats__stat__stat-one {
   font-size: 2.4rem;
   line-height: 4rem;
   font-weight: 700;
 }
-.section-one__content__right__box-2__stats__stat__stat-2 {
+.section-one__content__right__box-two__stats__stat__stat-two {
   font-size: 1.6rem;
   font-weight: 500;
 }
@@ -333,19 +333,19 @@ img {
   flex-direction: column;
   justify-content: space-between;
 }
-.section-two__content__left__bottom__left__content__text-1, .section-sellers__content__top__left__text {
+.section-two__content__left__bottom__left__content__text-one, .section-sellers__content__top__left__text {
   font-weight: 600;
   font-size: 2.4rem;
   line-height: 3.2rem;
   color: #23262F;
 }
-.section-two__content__left__bottom__left__content__text-2 {
+.section-two__content__left__bottom__left__content__text-two {
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 2.4rem;
   color: #353945;
 }
-.section-two__content__left__bottom__right__text-1 {
+.section-two__content__left__bottom__right__text-one {
   font-weight: 400;
   margin-bottom: 0.5rem;
 }
@@ -409,7 +409,7 @@ img {
   height: 2.4rem;
   width: 2.4rem;
 }
-.section-two__content__center__card__content__center__text-2 {
+.section-two__content__center__card__content__center__text-two {
   font-size: 1.4rem;
 }
 .section-two__content__center__card__content__btn {
@@ -442,13 +442,13 @@ img {
   width: 5.6rem;
   height: 5.6rem;
 }
-.section-two__content__right__card__content__text-1 {
+.section-two__content__right__card__content__text-one {
   font-size: 1.4rem;
 }
-.section-two__content__right__card__content__text-2 {
+.section-two__content__right__card__content__text-two {
   color: #23262F;
 }
-.section-two__content__right__card__content__text-2__span {
+.section-two__content__right__card__content__text-two__span {
   color: #777E90;
 }
 .section-two__content__right__btn {
@@ -511,16 +511,16 @@ img {
   padding-bottom: 2.4rem;
   border-bottom: 1px solid #E6E8EC;
 }
-.section-sellers__content__bottom__card__top .color-1 {
+.section-sellers__content__bottom__card__top .color-one {
   background-color: #9757D7;
 }
-.section-sellers__content__bottom__card__top .color-2 {
+.section-sellers__content__bottom__card__top .color-two {
   background-color: #45B36B;
 }
-.section-sellers__content__bottom__card__top .color-3 {
+.section-sellers__content__bottom__card__top .color-three {
   background-color: #23262F;
 }
-.section-sellers__content__bottom__card__top .color-4 {
+.section-sellers__content__bottom__card__top .color-four {
   background-color: #777E91;
 }
 .section-sellers__content__bottom__card__top__left {
@@ -557,14 +557,14 @@ img {
   margin-bottom: 1.6rem;
   transition: 0.5s;
 }
-.section-sellers__content__bottom__card__bottom__text-1 {
+.section-sellers__content__bottom__card__bottom__text-one {
   line-height: 2.4rem;
 }
-.section-sellers__content__bottom__card__bottom__text-2 {
+.section-sellers__content__bottom__card__bottom__text-two {
   font-size: 1.2rem;
   line-height: 2rem;
 }
-.section-sellers__content__bottom__card__bottom__text-2__span {
+.section-sellers__content__bottom__card__bottom__text-two__span {
   color: #777E91;
 }
 .section-sellers__content__bottom__card:hover .section-sellers__content__bottom__card__bottom__img {
@@ -616,7 +616,7 @@ img {
   height: 30rem;
   z-index: 1;
 }
-.section-bid__content__bottom__card__hover__span-1 {
+.section-bid__content__bottom__card__hover__span-one {
   position: absolute;
   top: 1.1rem;
   left: 0.8rem;
@@ -625,7 +625,7 @@ img {
   padding: 0.8rem;
   border-radius: 0.4rem;
 }
-.section-bid__content__bottom__card__hover__span-2 {
+.section-bid__content__bottom__card__hover__span-two {
   padding: 0.7rem 1rem;
   border-radius: 50%;
   background-color: #FCFCFD;
@@ -643,14 +643,14 @@ img {
   position: absolute;
   border-radius: 9rem;
 }
-.section-bid__content__bottom__card__box-1 {
+.section-bid__content__bottom__card__box-one {
   display: flex;
   justify-content: space-between;
   font-size: 1.6rem;
   line-height: 2.4rem;
   margin-top: 2rem;
 }
-.section-bid__content__bottom__card__box-2 {
+.section-bid__content__bottom__card__box-two {
   display: flex;
   justify-content: space-between;
   font-size: 1.4rem;
@@ -659,22 +659,22 @@ img {
   padding-bottom: 1.2rem;
   border-bottom: 1px solid #E6E8EC;
 }
-.section-bid__content__bottom__card__box-3 {
+.section-bid__content__bottom__card__box-three {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 1.2rem;
 }
-.section-bid__content__bottom__card__box-3__left {
+.section-bid__content__bottom__card__box-three__left {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.section-bid__content__bottom__card__box-3__left__text-2 {
+.section-bid__content__bottom__card__box-three__left__text-two {
   color: #353945;
   font-weight: 600;
 }
-.section-bid__content__bottom__card__box-3__left__img {
+.section-bid__content__bottom__card__box-three__left__img {
   width: 2rem;
   height: 2rem;
 }
@@ -691,17 +691,17 @@ img {
   justify-content: space-between;
   gap: 3rem;
 }
-.section-collections__bottom__card__box-1 {
+.section-collections__bottom__card__box-one {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 1rem;
 }
-.section-collections__bottom__card__box-1__img-1 {
+.section-collections__bottom__card__box-one__img-one {
   grid-column: 1/4;
   width: 35rem;
   height: 24rem;
 }
-.section-collections__bottom__card__box-1__img-2 {
+.section-collections__bottom__card__box-one__img-two {
   width: 11rem;
   height: 7.5;
 }
@@ -711,30 +711,30 @@ img {
   color: #23262F;
   padding: 1.2rem 0 0.8rem 0;
 }
-.section-collections__bottom__card__box-2 {
+.section-collections__bottom__card__box-two {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.section-collections__bottom__card__box-2__left {
+.section-collections__bottom__card__box-two__left {
   display: flex;
   gap: 1.2rem;
   align-items: center;
 }
-.section-collections__bottom__card__box-2__left__img {
+.section-collections__bottom__card__box-two__left__img {
   width: 2.4rem;
   height: 2.4rem;
 }
-.section-collections__bottom__card__box-2__left__text {
+.section-collections__bottom__card__box-two__left__text {
   font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 600;
   color: #353945;
 }
-.section-collections__bottom__card__box-2__left__text__span {
+.section-collections__bottom__card__box-two__left__text__span {
   font-weight: 400;
 }
-.section-collections__bottom__card__box-2__right {
+.section-collections__bottom__card__box-two__right {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.2rem;
@@ -750,17 +750,17 @@ img {
 .section-discover__content__title {
   margin-bottom: 8rem;
 }
-.section-discover__content__box-1 {
+.section-discover__content__box-one {
   display: flex;
   justify-content: space-between;
   padding-bottom: 3rem;
   border-bottom: 1px solid #E6E8EC;
   align-items: center;
 }
-.section-discover__content__box-1__categories {
+.section-discover__content__box-one__categories {
   gap: 1.2rem;
 }
-.section-discover__content__box-1__categories__link {
+.section-discover__content__box-one__categories__link {
   font-size: 1.4rem;
   line-height: 1.6rem;
   color: #777E90;
@@ -768,11 +768,11 @@ img {
   border-radius: 10rem;
   transition: 0.3s;
 }
-.section-discover__content__box-1__categories__link:hover {
+.section-discover__content__box-one__categories__link:hover {
   background-color: #353945;
   color: #FCFCFD;
 }
-.section-discover__content__box-1__filter {
+.section-discover__content__box-one__filter {
   background-color: #3772FF;
   color: #FCFCFD;
   font-size: 1.6rem;
@@ -780,18 +780,18 @@ img {
   padding: 1.6rem 2.4rem;
   border-radius: 9rem;
 }
-.section-discover__content__box-2 {
+.section-discover__content__box-two {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2.4rem 0 3.2rem 0;
 }
-.section-discover__content__box-2__content {
+.section-discover__content__box-two__content {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
-.section-discover__content__box-3 {
+.section-discover__content__box-three {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -836,11 +836,11 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.crypto__content__left__text-1, .crypto__content__left__text-3 {
+.crypto__content__left__text-one, .crypto__content__left__text-three {
   font-size: 1.6rem;
   line-height: 1.6rem;
 }
-.crypto__content__left__text-2 {
+.crypto__content__left__text-two {
   font-size: 6.4rem;
   line-height: 6.4rem;
   margin: 1.4rem 0 2rem 0;
@@ -934,10 +934,10 @@ img {
   .container {
     padding: 0 3rem;
   }
-  .section-one__content__right__title, .section-one__content__right__title-1 {
+  .section-one__content__right__title, .section-one__content__right__title-one {
     display: none;
   }
-  .section-one__content__right__title-1 {
+  .section-one__content__right__title-one {
     display: block;
   }
   .section-bid__content__bottom__card__img {
@@ -1022,7 +1022,7 @@ img {
     width: 40rem;
     height: 40rem;
   }
-  .crypto__content__left__text-2 {
+  .crypto__content__left__text-two {
     font-size: 5rem;
     line-height: 5rem;
   }
@@ -1120,7 +1120,7 @@ img {
   .section-collections__bottom {
     flex-direction: column;
   }
-  .section-collections__bottom__card__box-1__img-1 {
+  .section-collections__bottom__card__box-one__img-one {
     width: 36rem;
   }
   .details::after {
@@ -1129,10 +1129,10 @@ img {
   .section-discover__content {
     padding: 4rem 0;
   }
-  .section-discover__content__box-1__categories {
+  .section-discover__content__box-one__categories {
     display: none;
   }
-  .section-discover__content__box-2 {
+  .section-discover__content__box-two {
     display: none;
   }
   .crypto__content {

@@ -21,9 +21,9 @@ a{
     text-decoration: none;
 } 
 
-img{
-    object-fit: cover;
-}
+// img{
+//     object-fit: cover;
+// }
 
 .form{
     padding:0.7rem 1rem;
@@ -1223,6 +1223,10 @@ img{
         height: 35rem;
     }
 
+    .icon-two{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:768px) {
@@ -1295,7 +1299,7 @@ img{
 
     }
 
-    .card-2{
+    .card-two{
         display: none;
     }
 
@@ -1309,6 +1313,15 @@ img{
 
     .section-bid__content__bottom__card__hover{
         width: 28rem;
+    }
+
+    .section-collections__bottom__card__box-one__img-one {
+        width: 42rem;
+        height: 30rem;
+    }
+
+    .section-collections__bottom__card__box-one__img-two {
+        width: 13rem;
     }
 
     .crypto__content__right__img{
@@ -1443,8 +1456,8 @@ img{
         width: 36rem;
     }
 
-    .details::after{
-        content: ".details";
+    .section-collections__bottom__card__box-one__img-two {
+        width: 11rem;
     }
 
     .section-discover__content{

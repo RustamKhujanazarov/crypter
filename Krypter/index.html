@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="./sass/style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./header images/symbol.jpg">
 </head>
 <body>
    
@@ -26,7 +27,10 @@
                         <input type="text" class="navbar__right__form__input" placeholder="Search">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </form>
-                    <img src="./header images/Notification.png" alt="img" class="navbar__right__img">
+                    <div class="navbar__right__notification">
+                        <img src="./header images/Notification.png" alt="img" class="navbar__right__notification__img">
+                        <div class="navbar__right__notification__numbers"></div>
+                    </div>
                     <div class="navbar__right__btns">   
                         <a href="./index.html" class="navbar__right__btns__btn btn">Upload</a>
                         <a href="./index.html" class="navbar__right__btns__btn btn">Connect Wallet</a>
@@ -173,28 +177,40 @@
                 <div class="section-two__content__right">
                     <p class="section-two__content__right__text">Latest upload from creators 🔥</p>
                     <div class="section-two__content__right__card">
-                        <img src="./images-2/photo_2022-11-08_12-19-04.jpg" alt="img" class="section-two__content__right__card__img">
+                        <div class="section-two__content__right__card__left">
+                            <img src="./images-6/avatar-1.png" alt="img" class="section-two__content__right__card__left__img">
+                            <div class="section-two__content__right__card__left__index">6</div>
+                        </div>
                         <div class="section-two__content__right__card__content">
                             <p class="section-two__content__right__card__content__text-one">Payton Harris</p>
                             <p class="section-two__content__right__card__content__text-two">2.456 <span class="section-two__content__right__card__content__text-two__span">ETH</span></p>
                         </div>
                     </div>
                     <div class="section-two__content__right__card">
-                        <img src="./images-2/photo_2022-11-08_12-19-13.jpg" alt="img" class="section-two__content__right__card__img">
+                        <div class="section-two__content__right__card__left">
+                            <img src="./images-6/avatar-2.png" alt="img" class="section-two__content__right__card__left__img">
+                            <div class="section-two__content__right__card__left__index">2</div>
+                        </div>
                         <div class="section-two__content__right__card__content">
                             <p class="section-two__content__right__card__content__text-one">Anita Bins</p>
                             <p class="section-two__content__right__card__content__text-two">2.456 <span class="section-two__content__right__card__content__text-two__span">ETH</span></p>
                         </div>
                     </div>
                     <div class="section-two__content__right__card">
-                        <img src="./images-2/photo_2022-11-08_12-19-19.jpg" alt="img" class="section-two__content__right__card__img">
+                        <div class="section-two__content__right__card__left">
+                            <img src="./images-6/avatar-3.png" alt="img" class="section-two__content__right__card__left__img">
+                            <div class="section-two__content__right__card__left__index">3</div>
+                        </div>
                         <div class="section-two__content__right__card__content">
                             <p class="section-two__content__right__card__content__text-one">Joana Wuckert</p>
                             <p class="section-two__content__right__card__content__text-two">2.456 <span class="section-two__content__right__card__content__text-two__span">ETH</span></p>
                         </div>
                     </div>
                     <div class="section-two__content__right__card border-bottom">
-                        <img src="./images-2/photo_2022-11-08_12-19-25.jpg" alt="img" class="section-two__content__right__card__img">
+                        <div class="section-two__content__right__card__left">
+                            <img src="./images-6/avatar-4.png" alt="img" class="section-two__content__right__card__left__img">
+                            <div class="section-two__content__right__card__left__index">4</div>
+                        </div>
                         <div class="section-two__content__right__card__content">
                             <p class="section-two__content__right__card__content__text-one">Lorena Ledner</p>
                             <p class="section-two__content__right__card__content__text-two">2.456 <span class="section-two__content__right__card__content__text-two__span">ETH</span></p>
@@ -331,8 +347,9 @@
                         <img src="./images-2/photo_2022-11-08_12-18-33.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-one__text">Amazing digital art</p>
@@ -358,8 +375,9 @@
                         <img src="./images-2/photo_2022-11-08_12-18-47.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img width="16px" height="16px" src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-one__text">Amazing digital art</p>
@@ -385,8 +403,9 @@
                         <img src="./images-2/photo_2022-11-08_12-17-32.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-two__text">Amazing digital art</p>
@@ -412,8 +431,9 @@
                         <img src="./images-2/photo_2022-11-08_12-18-52.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-one__text">Amazing digital art</p>
@@ -556,8 +576,9 @@
                         <img src="./images-2/photo_2022-11-08_12-18-33.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-one__text">Amazing digital art</p>
@@ -583,8 +604,9 @@
                         <img src="./images-2/photo_2022-11-08_12-17-32.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-one__text">Amazing digital art</p>
@@ -610,8 +632,9 @@
                         <img src="./images-2/photo_2022-11-08_12-19-49.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-two__text">Amazing digital art</p>
@@ -637,8 +660,9 @@
                         <img src="./images-2/photo_2022-11-08_12-18-47.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-two__text">Amazing digital art</p>
@@ -664,8 +688,9 @@
                         <img src="./images-2/photo_2022-11-08_12-18-33.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-two__text">Amazing digital art</p>
@@ -691,8 +716,9 @@
                         <img src="./images-2/photo_2022-11-08_12-18-33.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-one__text">Amazing digital art</p>
@@ -718,8 +744,9 @@
                         <img src="./images-2/photo_2022-11-08_12-19-54.jpg" alt="img" class="section-bid__content__bottom__card__img">
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-one__text">Amazing digital art</p>
@@ -745,8 +772,9 @@
                         <a href="#"><img src="./images-2/photo_2022-11-08_12-17-32.jpg" alt="img" class="section-bid__content__bottom__card__img"></a>
                         <div class="section-bid__content__bottom__card__hover">
                             <span class="section-bid__content__bottom__card__hover__span-one">PURCHASING!</span>
-                            <span class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></span>
-                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img"></a>
+                            <div class="section-bid__content__bottom__card__hover__span-two"><i class="fa-regular fa-heart"></i></div>
+                            <div class="section-bid__content__bottom__card__hover__span-two heart"><i class="fa-solid fa-heart"></i></div>
+                            <a href="./index.html" class="section-bid__content__bottom__card__hover__btn">Place a bid &nbsp;<img src="./images-6/scatter.svg" alt="img" class="section-bid__content__bottom__card__hover__btn__img"></a>
                         </div>
                         <div class="section-bid__content__bottom__card__box-one">
                             <p class="section-bid__content__bottom__card__box-one__text">Amazing digital art</p>

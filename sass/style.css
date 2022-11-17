@@ -690,8 +690,8 @@ a {
   color: #23262F;
   z-index: 2;
 }
-.section-bid__content__bottom__card__hover__span-two:active, .section-bid__content__bottom__card__hover .heart:active {
-  display: none;
+.section-bid__content__bottom__card__hover__span-two:focus, .section-bid__content__bottom__card__hover .heart:focus {
+  color: red;
 }
 .section-bid__content__bottom__card__hover .heart {
   position: absolute;

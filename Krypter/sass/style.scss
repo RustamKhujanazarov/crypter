@@ -888,22 +888,10 @@ a{
                         z-index: 2;
                     }
 
-                    &__span-two:active{
-                        display: none
+                    &__span-two:focus{
+                        color: red;
                     }
 
-                    .heart{
-                        @extend .section-bid__content__bottom__card__hover__span-two;
-                        position: absolute;
-                        z-index: 1;
-                        .fa-solid{
-                            color: red;
-                        }
-                    }
-
-                    // &__span-two:hover .fa-heart{
-                    //     color: red;
-                    // }
 
 
                     &__btn{

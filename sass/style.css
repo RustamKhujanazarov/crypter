@@ -678,7 +678,7 @@ a {
   padding: 0.8rem;
   border-radius: 0.4rem;
 }
-.section-bid__content__bottom__card__hover__span-two, .section-bid__content__bottom__card__hover .heart {
+.section-bid__content__bottom__card__hover__span-two {
   padding: 0.7rem 1rem;
   border-radius: 50%;
   background-color: #FCFCFD;
@@ -690,14 +690,7 @@ a {
   color: #23262F;
   z-index: 2;
 }
-.section-bid__content__bottom__card__hover__span-two:focus, .section-bid__content__bottom__card__hover .heart:focus {
-  color: red;
-}
-.section-bid__content__bottom__card__hover .heart {
-  position: absolute;
-  z-index: 1;
-}
-.section-bid__content__bottom__card__hover .heart .fa-solid {
+.section-bid__content__bottom__card__hover__span-two:focus {
   color: red;
 }
 .section-bid__content__bottom__card__hover__btn {
